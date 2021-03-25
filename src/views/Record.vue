@@ -25,7 +25,6 @@ export default {
       fetch("/data/employee.json")
         .then(res => res.json())
         .then(res => that.employeeData = res);
-      // this.$alert("Hello Vue Simple Alert.");
     })
   }
 }
